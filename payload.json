@@ -1,0 +1,14 @@
+{
+  "version": "0",
+  "id": "YOUR_EVENT_ID",
+  "detail-type": "Scheduled Event",
+  "source": "aws.events",
+  "account": "YOUR_AWS_ACCOUNT_ID",
+  "time": "2023-12-01T00:00:00Z",
+  "region": "YOUR_AWS_REGION",
+  "resources": [
+    "YOUR_EVENTBRIDGE_RULE_ARN"
+  ],
+  "detail": {}
+}
+
